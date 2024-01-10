@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  background-color: #541554;
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+.navbar{
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 80px;
+
+}
+.left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slack img{
+  width: 200px;
+
+}
+.nav-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+.contents{
+  display: flex;
+  gap: 30px;
+}
+.nav-content img{
+  width: 12px;
+  margin-left: 5px;
+}
+.right{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.search img{
+  width: 20px;
+}
+.talk-to-sales{
+  border: 1px solid white;
+  padding: 13px 18px;
+  border-radius: 3px;
+  font-size: 14px;
+
+}
+.try-for-free{
+  background-color: white;
+  color: #541554;
+  padding: 14px 18px;
+  border-radius: 3px;
+  font-size: 14px;
+
+}
